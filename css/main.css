@@ -37,6 +37,87 @@ body{
 .hero-left-wrapper p+button{
     margin-right:12px;
 }
+.hero-left-wrapper p+button.fn-disabled{
+    position: relative;
+    cursor: pointer;
+}
+.hero-left-wrapper p+button.fn-disabled:after{
+    content: "COMING SOON";
+    position: absolute;
+    width: 100%;
+    left: 0; bottom: -30px; right: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    opacity: 0;
+}
+.hero-left-wrapper p+button.fn-disabled:hover:after{
+    animation: shake 150ms 2 linear;
+    -moz-animation: shake 150ms 2 linear;
+    -webkit-animation: shake 150ms 2 linear;
+    -o-animation: shake 150ms 2 linear;
+    opacity: 1;
+}
+@keyframes shake {
+    0% {
+      transform: translate(3px, 0);
+    }
+    50% {
+      transform: translate(-3px, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+  @-moz-keyframes shake {
+    0% {
+      -moz-transform: translate(3px, 0);
+    }
+    50% {
+      -moz-transform: translate(-3px, 0);
+    }
+    100% {
+      -moz-transform: translate(0, 0);
+    }
+  }
+
+  @-webkit-keyframes shake {
+    0% {
+      -webkit-transform: translate(3px, 0);
+    }
+    50% {
+      -webkit-transform: translate(-3px, 0);
+    }
+    100% {
+      -webkit-transform: translate(0, 0);
+    }
+  }
+
+  @-ms-keyframes shake {
+    0% {
+      -ms-transform: translate(3px, 0);
+    }
+    50% {
+      -ms-transform: translate(-3px, 0);
+    }
+    100% {
+      -ms-transform: translate(0, 0);
+    }
+  }
+
+  @-o-keyframes shake {
+    0% {
+      -o-transform: translate(3px, 0);
+    }
+    50% {
+      -o-transform: translate(-3px, 0);
+    }
+    100% {
+      -o-transform: translate(0, 0);
+    }
+  }
+
 
 @media (max-width:992px) {
     .hero-left-wrapper{
@@ -596,11 +677,17 @@ footer img{
 }
 
 .sticky .navbar-nav{
-    --bs-nav-link-color: rgba(0, 0, 0, 0.55) !important;
+    --bs-nav-link-color: rgba(0, 0, 0, 1) !important;
 }
 .sticky.navbar{
     background-color: white !important;
     --bs-navbar-active-color: rgba(0, 0, 0, 0.85) ;
+}
+.nav-link{
+    font-size: 14px;
+}
+.nav-link:hover{
+    color: #d60c51;
 }
 @media (max-width:992px){
     .navbar-toggler{
