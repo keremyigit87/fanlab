@@ -1,27 +1,24 @@
 <section class="overflow-hidden"> <!-- Roadmap -->
     <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <span class="title-top">LET US SHOW YOU</span>
+          <h5>Roadmap</h5>
+        </div>
+      </div>
         <div class="row">
             <div class="col-12">
                 <div class="timeline">
                 <ul>
+                  {% for item in site.data.roadmap.milestones %}
                   <li>
                     <div>
-                      <time>2016</time>
-                      Event Here
+                      <label>{{item.month}}</label>
+                      <time>{{item.year}}</time>
+                      <p>{{item.description}}</p>
                     </div>
                   </li>
-                  <li>
-                    <div>
-                      <time>2015</time>
-                      Event Here
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <time>2014</time>
-                      Event Here
-                    </div>
-                  </li>
+                  {% endfor %}
                 </ul>
             </div>
             </div>

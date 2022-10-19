@@ -1,0 +1,40 @@
+{
+    "milestones": [
+        {
+            "id": 1,
+            "month": "December",
+            "year":"2022",
+            "description": "Partnership & Collaboration announcements (BIG CO on the road!)"
+        },
+        {
+            "id": 2,
+            "month": "February",
+            "year":"2023",
+            "description": "Entrepreneur Club NFT Sale (500 Entrepreneurs only – Act fast!)"
+        },
+        {
+            "id": 3,
+            "month": "May",
+            "year":"2023",
+            "description": "Beta launch of FanLab dashboard"
+        },
+        {
+            "id": 4,
+            "month": "July",
+            "year":"2023",
+            "description": "Mainnet Launch & First CO NFT collection publication"
+        },
+        {
+            "id": 5,
+            "month": "December",
+            "year":"2023",
+            "description": "GOAL: 40+ active Fan Communities running on the system"
+        },
+        {
+            "id": 6,
+            "month": "April",
+            "year":"2024",
+            "description": "Keep building with community governance"
+        }
+    ]
+}

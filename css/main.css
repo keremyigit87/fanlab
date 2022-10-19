@@ -340,6 +340,15 @@ section h5:after{
     background: linear-gradient(45deg,#d60c51,#d60c51 35%,#e7502b 70%,#ffb800);
     border-radius: 99999px;
   }
+  .timeline ul li label{
+    font-size: 12px;
+    opacity: .7;
+    margin-bottom: -2px;
+    display: block;
+  }
+  .timeline ul li time{
+    font-size: 34px;
+  }
   .timeline ul li::after {
     content: '';
     position: absolute;
@@ -499,6 +508,9 @@ section h5:after{
     height: 14px;
     background-size: contain;
 }
+.fanlab-accordion .accordion-button:hover{
+    background-color: #efefef;
+}
 .title-top{
     font-size: 14px;
     font-weight: 400;
@@ -529,6 +541,24 @@ section h5:after{
     font-size: 16px;
     font-weight: 400;
     display: block;
+    margin-top: 24px;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: transform ease-in .2s;
+}
+.contact-info a:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+footer ul{
+    margin-left: 0;
+    padding-left: 0;
 }
 footer ul li{
     margin-bottom: 12px;
@@ -536,6 +566,9 @@ footer ul li{
 footer ul li a{
     text-decoration: none;
     color: #2d2d2d;
+}
+footer img{
+    width: 160px;
 }
 .navbar .color-logo{
     display: none;
@@ -601,5 +634,14 @@ footer ul li a{
     .benefits-sections img{
         width: 70% !important;
         display: inline-block;
+    }
+    .club-section img{    
+        width: 300px !important;
+        margin: 0 auto 14px;
+        display: block;
+    }
+    section{
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
 }
