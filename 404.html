@@ -3,23 +3,33 @@ permalink: /404.html
 layout: default
 ---
 
+
 <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
   h1 {
     margin: 30px 0;
-    font-size: 4em;
+    font-size: 5em;
     line-height: 1;
     letter-spacing: -1px;
   }
+  .navbar-nav{
+    display: none;
+  }
+  footer ul{
+    display: none;
+  }
 </style>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<main>
+  <section class="hero-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-8 offset-2">
+          <h1 class="text-light">404</h1>
+          <p class="text-light"><strong>Page not found :(</strong></p>
+          <p class="text-light">The requested page could not be found.</p>
+          <a href="/" class="btn white-btn">Go to Homepage</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
