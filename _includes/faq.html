@@ -1,0 +1,30 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <span class="title-top">QUESTIONS? WE ARE READY!</span>
+                <h5>Commonly Asked Questions</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-8 offset-lg-2">
+                <div class="accordion fanlab-accordion" id="accordionExample">
+                    {% for item in site.data.faq.items %}
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne{{item.id}}">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne{{item.id}}" aria-expanded="true" aria-controls="collapseOne{{item.id}}">
+                          {{item.title}}
+                        </button>
+                      </h2>
+                      <div id="collapseOne{{item.id}}" class="accordion-collapse collapse" aria-labelledby="headingOne{{item.id}}" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          {{item.description}}
+                        </div>
+                      </div>
+                    </div>
+                    {% endfor %}
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>

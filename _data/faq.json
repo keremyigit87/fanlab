@@ -1,0 +1,54 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "title": "What does FanLab do?",
+            "description": "FanLab offers no-code tools and infrastructure to help creators and artists design and mint NFTs, build custom-branded membership communities in web3, and connect with your most loyal fans."
+        },
+        {
+            "id": 2,
+            "title": "Why build my community with NFTs?",
+            "description": "Your NFTs are a tool for you to create a direct and lasting connection with your top fans. When fans own your NFTs, you can thank, reward, and build lasting community with them. <br/><br/> Instead of all the upside of your work going to platforms and middlemen, your fans can choose to enjoy these benefits or resell them and earn from supporting you. With NFTs, your fans start sharing in your success."
+        },
+        {
+            "id": 3,
+            "title": "What makes FanLab different?",
+            "description": "We radically simplify not just the NFT minting and sales process but provide the creator tools, services, and integrations for long-term fan engagement and community-building at scale. <br/><br/> Your community is fully customizable. We believe every community is unique, and your aesthetic should be front and center, not ours. <br/><br/> Our tools make your community accessible to all of your mainstream fans. We provide credit card processing, non-custodial wallet instantiation, fraud/risk prevention, customer support and more to help your fans onboard to web3 while maintaining an easy-to-use, consumer-friendly experience. <br/><br/> For fans that we help to create wallets for, they have sole access to their private keys if they choose, giving them the best of both web2 and web3 interoperability. <br/><br/> FanLab is a community-building platform, not a marketing platform. We help you drive community engagement and revenue, not traffic."
+        },
+        {
+            "id": 4,
+            "title": "Who owns my smart contract?",
+            "description": "All NFTs minted using FanLab are owned by the creator. Your wallet is the owner of your contract."
+        },
+        {
+            "id": 5,
+            "title": "How do I make money? How does FanLab make money?",
+            "description": "As a creator, you can make money using FanLab by selling NFTs that grant access to your gated community, NFTs that unlock rewards, or NFT collectibles. <br/><br/> You can also sell exclusive merchandise, tickets, experiences, or other offerings on FanLab through our third-party integration partners. <br/><br/> FanLab charges a flat 3% fee on all token sales."
+        },
+        {
+            "id": 6,
+            "title": "What's the environmental impact of FanLab's NFT's?",
+            "description": "FanLab uses Polygon, a “proof-of-stake” blockchain solution that requires dramatically less energy to process transactions compared with other blockchains. <br/><br/> While estimates vary, individual transactions on Polygon use approximately 99.9% less carbon than an equivalent transaction on Ethereum’s current proof-of-work blockchain. Upcoming work to shift Ethereum to a proof-of-stake blockchain will further reduce Polygon’s aggregate carbon footprint."
+        },
+        {
+            "id": 7,
+            "title": "Can FanLab help me with custom design work, technical needs, strategic planning, Discord set up, or other services?",
+            "description": "We provide the above services and more. Please email us at hakan@fanlab.io with details on your project and we’ll see if we can help."
+        },
+        {
+            "id": 8,
+            "title": "Is FanLab interoperable with the rest of web3?",
+            "description": "FanLab is built on Polygon, the EVM-compatible sidechain. Our smart contracts and NFTs have best-in-class interoperability with OpenSea, Rarible, and other leading NFT marketplaces that support Polygon."
+        },
+        {
+            "id": 9,
+            "title": "Who pays gas fees?",
+            "description": "FanLab is 100% gas free for both minting and transacting — we cover the gas. This includes deploying your own smart contracts and minting NFTs."
+        },
+        {
+            "id": 10,
+            "title": "Where is file and metadata stored for NFTs minted on FanLab?",
+            "description": "We use Ispn for decentralized file and metadata storage."
+        }
+    ]
+}

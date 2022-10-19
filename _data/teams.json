@@ -1,0 +1,45 @@
+{
+    "members" : [
+        {
+            "img": "/assets/teams/ali-umut.jpeg",
+            "name": "Ali Umut Erdoğan",
+            "title": "CEO",
+            "linkedin_url": "https://www.linkedin.com/in/ali-umut-erdoan-99395228/"
+        },{
+            "img": "/assets/teams/hakan-senoz.jpeg",
+            "name": "Hakan Şenöz",
+            "title": "CTO",
+            "linkedin_url": "https://www.linkedin.com/in/hakan-senoz-4791b522/"
+        },{
+            "img": "/assets/teams/doruk-demirsar.jpeg",
+            "name": "Doruk Demirsar",
+            "title": "CO-Founder",
+            "linkedin_url": "https://www.linkedin.com/in/demirsar/"
+        },{
+            "img": "/assets/teams/gokhan-kazar.jpeg",
+            "name": "Gökhan Kazar",
+            "title": "Co-Founder",
+            "linkedin_url": "https://www.linkedin.com/in/gokhankazar/"
+        },{
+            "img": "/assets/teams/efe-hizir.jpeg",
+            "name": "Efe Hızır",
+            "title": "CMO",
+            "linkedin_url": "https://www.linkedin.com/in/efehizir/"
+        },{
+            "img": "/assets/teams/artug-iscimen.jpeg",
+            "name": "Artuğ İşçimen",
+            "title": "Head of Development",
+            "linkedin_url": "https://www.linkedin.com/in/artugiscimen/"
+        },{
+            "img": "/assets/teams/kerem-yigit.jpeg",
+            "name": "Kerem Yiğit",
+            "title": "Head of UX/UI",
+            "linkedin_url": "https://www.linkedin.com/in/keremyigit/"
+        },{
+            "img": "/assets/teams/elvan-tunceli.jpeg",
+            "name": "Elvan Tunceli",
+            "title": "Operation Specialist",
+            "linkedin_url": "https://www.linkedin.com/in/elvan-tunceli-755a5416/"
+        }
+    ]
+}
